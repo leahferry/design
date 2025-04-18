@@ -53,6 +53,8 @@
 
         <link href="css/effects/component.css"  rel="stylesheet" type="text/css" >
 
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 	</head>
 
 
@@ -165,19 +167,15 @@
 
                         <div class="clearfix"></div>
                       
-                        <div class="work-images grid">
-
-                            <ul class="grid-lod effect-2" id="grid">
-
-                                <li><img src="images/health-images/health-01-Medium.webp" alt="" class="img-responsive"/></li>
-                                <li><img src="images/health-images/health-02-medium.webp" alt="" class="img-responsive"/></li>
-                                <li><img src="images/health-images/health-02.webp" alt="" class="img-responsive"/></li>
-                                <li><img src="images/health-images/health-03-medium.webp" alt="" class="img-responsive"/></li>
-                                <li><img src="images/health-images/health-03.webp" alt="" class="img-responsive"/></li>
-                                <li><img src="images/health-images/health-04-medium.webp" alt="" class="img-responsive"/></li>
-                                <li><img src="images/health-images/health-05-medium.webp" alt="" class="img-responsive"/></li>
-
-                            </ul>
+                        <div class="work-images">
+                            <img data-aos="fade-up" src="images/health-images/health-02-1920.webp" alt="Image 1" class="img-responsive"/>
+                            <img data-aos="fade-up" src="images/health-images/health-02-2400.webp" alt="Image 2" class="img-responsive"/>
+                            <img data-aos="fade-up" src="images/health-images/health-02-3840.webp" alt="Image 3" class="img-responsive"/>
+                            <img data-aos="fade-up" src="images/health-images/health-02.webp" alt="Image 4" class="img-responsive"/>
+                            <img data-aos="fade-up" src="images/health-images/health-03-1920.webp" alt="Image 1" class="img-responsive"/>
+                            <img data-aos="fade-up" src="images/health-images/health-03-2400.webp" alt="Image 2" class="img-responsive"/>
+                            <img data-aos="fade-up" src="images/health-images/health-03-3840.webp" alt="Image 3" class="img-responsive"/>
+                            <img data-aos="fade-up" src="images/health-images/health-03.webp" alt="Image 4" class="img-responsive"/>
 
                         </div>
 
@@ -273,6 +271,15 @@
         <!-- jquery.countdown -->
 
         <script src="js/html5shiv.js" type="text/javascript"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init({
+                duration: 1000, // Animation duration in milliseconds
+                once: true // Animation happens only once when scrolling down
+            });
+        </script>
 
     </body>
 
