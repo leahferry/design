@@ -399,3 +399,10 @@ article[role="pge-title-content"].contact-header p a:hover{color:#fb5353; text-d
     height: auto;
 }
 
+/* Make images responsive */
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
