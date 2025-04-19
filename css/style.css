@@ -234,7 +234,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="ma
 
 /*===== footer ===*/
 
-footer[role="footer"]{ background-color:#FFF; padding-top:100px; padding-bottom:77px}
+footer[role="footer"]{ background-color:#FFF; padding-top:10px; padding-bottom:77px}
 
 footer[role="footer"] > h1 a{ margin:0 auto; display:block; max-width:66px;}
 
@@ -397,12 +397,5 @@ article[role="pge-title-content"].contact-header p a:hover{color:#fb5353; text-d
 .full-width {
     width: 100%;
     height: auto;
-}
-
-/* Make images responsive */
-.img-responsive {
-    max-width: 100%;
-    height: auto;
-    display: block;
 }
 

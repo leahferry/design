@@ -1,3 +1,13 @@
+body {
+    margin: 0;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+img {
+    max-width: 100%;
+    height: auto; /* Ensure images are responsive */
+}
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -34,4 +44,11 @@
 .col-md-8 {
     flex: 0 0 66.6667%;
     max-width: 66.6667%;
+}
+
+@media (max-width: 768px) {
+    .col-md-4, .col-md-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
