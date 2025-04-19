@@ -49,6 +49,8 @@ img {
 @media (max-width: 768px) {
     .col-md-4, .col-md-8 {
         flex: 0 0 100%;
+        margin-left:5px;
+        margin-right:5px; /* Reduce left and right margins for smaller screens */
         max-width: 100%;
     }
 }
