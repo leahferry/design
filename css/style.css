@@ -391,7 +391,22 @@ article[role="pge-title-content"].contact-header p a:hover{color:#fb5353; text-d
 
 .blog-details .enter-content p{ font-size:16px; line-height:30px; font-weight:300; margin-bottom:23px}
 
+/* Portfolio Link */
+a.portfolio-link {
+    font-size: 1.2em; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    color: #A9AB8A; /* A visually appealing color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Add some padding */
+    border: 1px solid #A9AB8A; /* Optional border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
 
+a.portfolio-link:hover {
+    background-color: #A9AB8A; /* Change background on hover */
+    color: #fff; /* Change text color on hover */
+}
 
 /* Full-width images */
 .full-width {
